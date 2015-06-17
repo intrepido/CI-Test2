@@ -7,6 +7,7 @@ lib-cov
 *.pid
 *.gz
 
+
 pids
 logs
 results
@@ -16,3 +17,4 @@ node_modules
 
 # Ignore json file with credentials
 sauce.json
+/.idea
