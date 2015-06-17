@@ -2,6 +2,9 @@
   "name": "karma-sauce-example",
   "version": "0.0.0",
   "description": "An example of using the Karma test runner with Sauce Labs' browser cloud to run JavaScript unit tests",
+  "scripts": {
+    "test": "/node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  },
   "author": "Sauce Labs",
   "license": "Apache V2",
   "devDependencies": {
