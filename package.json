@@ -2,11 +2,6 @@
   "name": "karma-sauce-example",
   "version": "0.0.0",
   "description": "An example of using the Karma test runner with Sauce Labs' browser cloud to run JavaScript unit tests",
-  "main": "karma.conf-ci.js",
-  "scripts": {
-    "test": "karma start karma.conf-ci.js",
-    "postinstall": "node install.js"
-  },
   "author": "Sauce Labs",
   "license": "Apache V2",
   "devDependencies": {
