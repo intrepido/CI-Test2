@@ -6,7 +6,8 @@ deploy:
   provider: openshift
   user: in3pi287@gmail.com
   password:
-    secure: BIIao3gmWKVYclJntDF45hLwGY6reUJs+HxyrLAtFnGLZcsxGqBlgvwtOsl3ZVSz61CcMlu7Aq0UxOU8vkkLIBy+kXQ1ofbDMVoYY0T7paf3V1x0IwoGypuxzsX9LUxrGxZ1JapfOhnMYEucix/R4GcHUlrzx+X/zFbgSojoAyY=
+    secure: U50sC8Sm2NKas5CiecPftu+NM4Y8xu1UEAHfoLoQpgKK6MnXLYZjPC0i/qmbigv40nvBu9t+xdbpUbGuOO12A8UASLIcGMIyeMCcN9yU+Ud4jJsANeR0lecSn10syRtHw2QGEY/AEXnxNau+IWh6zQ10Rl9Zn9/MEHG9mffpyHQ=
   app: citest2
   domain: fideltest
-  deployment_branch: master
+  on:
+    repo: intrepido/CI-Test2
