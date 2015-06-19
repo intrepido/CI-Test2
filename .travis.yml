@@ -9,3 +9,4 @@ deploy:
     secure: BIIao3gmWKVYclJntDF45hLwGY6reUJs+HxyrLAtFnGLZcsxGqBlgvwtOsl3ZVSz61CcMlu7Aq0UxOU8vkkLIBy+kXQ1ofbDMVoYY0T7paf3V1x0IwoGypuxzsX9LUxrGxZ1JapfOhnMYEucix/R4GcHUlrzx+X/zFbgSojoAyY=
   app: citest2
   domain: fideltest
+  deployment_branch: master
