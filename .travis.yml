@@ -3,3 +3,9 @@ node_js:
 - '0.10'
 
 before_script: npm install -g karma-cli
+deploy:
+  provider: openshift
+  user: "in3pi287@gmail.com"
+  password: "baddog" # can be encrypted
+  domain: "fideltest"
+  app: citest2
