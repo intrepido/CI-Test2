@@ -1,5 +1,11 @@
 language: node_js
 node_js:
 - '0.10'
-
 before_script: npm install -g karma-cli
+deploy:
+  provider: openshift
+  user: in3pi287@gmail.com
+  password:
+    secure: BIIao3gmWKVYclJntDF45hLwGY6reUJs+HxyrLAtFnGLZcsxGqBlgvwtOsl3ZVSz61CcMlu7Aq0UxOU8vkkLIBy+kXQ1ofbDMVoYY0T7paf3V1x0IwoGypuxzsX9LUxrGxZ1JapfOhnMYEucix/R4GcHUlrzx+X/zFbgSojoAyY=
+  app: citest2
+  domain: fideltest
